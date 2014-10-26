@@ -9,7 +9,7 @@ NEI <- NEI[NEI$fips == "24510", ]
 NEI$type <- factor(NEI$type)
 NEI$year <- factor(NEI$year)
 
-# Get sample data to speed up testing
+# Get sample data to speed up testing (will keep it here for future reference)
 # sNEI <- NEI[sample(nrow(NEI), 10000), ]
 
 # Import ggplot2 package. Install it if it's not already instaled
